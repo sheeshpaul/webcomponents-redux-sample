@@ -1,0 +1,28 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rimraf dist",
+    "lint": "eslint --ext js,ts src",
+    "start": "parcel src/index.html",
+    "build:js": "parcel build src/index.html",
+    "build": "npm run clean && npm run lint && npm run build:js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.2"
+  }
+}

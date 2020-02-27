@@ -1,1 +1,0 @@
-# webcomponents-redux-sample
