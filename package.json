@@ -1,7 +1,7 @@
 {
-  "name": "empty-project",
+  "name": "webcomponents-redux-sample",
   "version": "1.0.0",
-  "description": "",
+  "description": "A sample project to demonstrate webcomponents-redux usage",
   "main": "index.js",
   "keywords": [],
   "author": "",
@@ -13,7 +13,10 @@
     "build:js": "parcel build src/index.html",
     "build": "npm run clean && npm run lint && npm run build:js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "redux": "^4.0.5",
+    "webcomponents-redux": "0.0.3"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
