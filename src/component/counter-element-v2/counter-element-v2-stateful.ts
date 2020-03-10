@@ -1,12 +1,12 @@
-import { CounterElement } from './counter-element';
-import { State } from './../state';
+import { State, store } from '../../state';
+
+import { CounterElementV2 } from './counter-element-v2';
 import { connect } from 'webcomponents-redux';
-import { store } from '../state';
 
 /**
  * The stateful class for CounterElement.
  */
-export class CounterElementStateful extends CounterElement {
+export class CounterElementV2Stateful extends CounterElementV2 {
     /**
      * The function is called, every time redux state changes.
      * It checks the properties of counter state for any change and triggers the component update.
@@ -36,4 +36,4 @@ export class CounterElementStateful extends CounterElement {
     }
 }
 
-connect(CounterElementStateful, store);
+connect(CounterElementV2Stateful, store);

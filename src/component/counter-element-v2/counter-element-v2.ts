@@ -1,7 +1,7 @@
 /**
- * The Counter element.
+ * The Counter element. Implements Two Class Model, where Presentation class has the UI logic and Container class has the Redux logic.
  */
-export class CounterElement extends HTMLElement {
+export class CounterElementV2 extends HTMLElement {
     countElement: HTMLSpanElement | null;
 
     /**
