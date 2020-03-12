@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "redux": "^4.0.5",
-    "webcomponents-redux": "0.0.3"
+    "webcomponents-redux": "1.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.21.0",
