@@ -47,9 +47,6 @@ export class CounterElementV1 extends HTMLElement {
         });
 
         this.countElement = this.shadowRoot!.querySelector('span');
-
-        // @ts-ignore
-        this.connectState();
     }
 
     /**
